@@ -13,6 +13,7 @@
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   color: #0d0d0d;
+  width: 100%;
 }
 
 .main-container .homepage .info h1 {

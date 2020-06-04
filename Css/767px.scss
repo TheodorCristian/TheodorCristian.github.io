@@ -4,23 +4,31 @@
             .sectionOne-container{
             }
         }
-        .homepage nav .nav-container{ 
-            .burger-menu {
-                div {
-                margin-left: 70%;
-                }
-            } 
-            .menu{
-                display: block;
-                ul{
-                    text-align: center;
-                    li{
-                        width: 100%;
-                        display: block;
-                        margin: 0 auto;
+        .homepage {
+            nav .nav-container{ 
+                .burger-menu {
+                    div {
+                    margin-left: 70%;
+                    }
+                } 
+                .menu{
+                    display: block;
+                    ul{
+                        text-align: center;
+                        li{
+                            width: 100%;
+                            display: block;
+                            margin: 0 auto;
+                        }
                     }
                 }
             }
+            .info{
+                top: 60%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+
         } 
     }
 }

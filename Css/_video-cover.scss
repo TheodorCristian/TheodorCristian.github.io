@@ -11,6 +11,7 @@
         left: 50%;
         transform: translate(-50%,-50%);
         color: #0d0d0d;
+        width: 100%;
         h1{
             font-size: 40px;
             font-weight: 1000;
@@ -21,7 +22,7 @@
               --animate-delay: 5s;
             } 
             width: 100%;
-            
+
         }
         h2{
             font-size: 25px;
