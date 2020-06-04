@@ -1,59 +1,9 @@
 $( document ).ready(function() {
-    scaleVideoContainer();
-    initBannerVideoSize('.video-container .poster img');
-    initBannerVideoSize('.video-container .filter');
-    initBannerVideoSize('.video-container video');
     titleAnimation();
     descriptionAnimation();
     technologiesAnimation();
     burgerAnimation();
-
-    $(window).on('resize', function() {
-      scaleVideoContainer();
-      scaleBannerVideoSize('.video-container .poster img');
-      scaleBannerVideoSize('.video-container .filter');
-      scaleBannerVideoSize('.video-container video');
-    });
-  });
-
-// Background Video animation
-  function scaleVideoContainer() {
-    var height = $(window).height();
-    var unitHeight = parseInt(height) + 'px';
-    $('.homepage').css('height',unitHeight);
-  }
-
-  function initBannerVideoSize(element){
-    $(element).each(function(){
-      $(this).data('height', $(this).height());
-      $(this).data('width', $(this).width());
-    });
-
-    scaleBannerVideoSize(element);
-  }
-
-  function scaleBannerVideoSize(element) {
-
-    var windowWidth = $(window).width(),
-    windowHeight = $(window).height(),
-    videoWidth,
-    videoHeight;
-
-
-    $(element).each(function(){
-      var videoAspectRatio = $(this).data('height')/$(this).data('width');
-      $(this).width(windowWidth);
-      if(windowWidth < 1024){
-          videoHeight = windowHeight;
-          videoWidth = videoHeight / videoAspectRatio;
-          $(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
-          $(this).width(videoWidth).height(videoHeight);
-      }
-
-      $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
-    });
-  }
-
+});
 // This function determines if an element is in user's visual side
   function inVisualSide(element) {
     let documentTop = $(window).scrollTop();

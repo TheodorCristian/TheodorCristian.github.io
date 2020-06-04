@@ -7,8 +7,10 @@
 .main-container .homepage .info {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
   padding: 0 100px;
   color: #0d0d0d;
 }
@@ -98,41 +100,6 @@
   border-bottom: 2px solid #151515;
   -webkit-transition: .5s linear;
   transition: .5s linear;
-}
-
-.no-video .video-container video,
-.touch .video-container video {
-  display: none;
-}
-
-.no-video .video-container .poster,
-.touch .video-container .poster {
-  display: block !important;
-}
-
-.video-container {
-  position: relative;
-  bottom: 0%;
-  left: 0%;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-
-.video-container .poster img {
-  width: 100%;
-  bottom: 0;
-  position: absolute;
-}
-
-.video-container video {
-  position: absolute;
-  z-index: 0;
-  top: 0;
-}
-
-.video-container video.fillWidth {
-  width: 100%;
 }
 
 .sectionOne {
@@ -256,7 +223,7 @@
 .contact-section .homepage .contact-form {
   width: 70%;
   margin: 0 auto;
-  padding: 130px 0;
+  padding: 200px 0;
   white-space: nowrap;
 }
 
@@ -337,6 +304,11 @@
 .contact-section .homepage .contact-form .form-container .radio-group p {
   color: #f0f0f0;
   margin: 10px 0;
+}
+
+footer {
+  height: 200px;
+  background: rgba(51, 51, 51, 0.658);
 }
 
 body {
