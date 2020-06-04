@@ -41,5 +41,14 @@
   .main-container .homepage nav .nav-container .menu ul li {
     width: 25%;
   }
+  .sectionTwo .sectionTwo-container .technologies {
+    display: block;
+    margin-bottom: 50px;
+  }
+  .sectionTwo .sectionTwo-container .technologies .technology {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=1366px.css.map */

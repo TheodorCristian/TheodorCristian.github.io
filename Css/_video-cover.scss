@@ -1,15 +1,10 @@
 .main-container{
-.homepage {
-    border-right: none;
-    border-left: none;
-    position: relative;
+  .homepage {
+    background: url(/Assets/Background-image-main-page.jpg) no-repeat center center;
+    background-size: cover;
     .info{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
         text-align: center;
-        padding: 0 100px;
+        padding: 100px 0;
         color: #0d0d0d;
         h1{
             font-size: 40px;
@@ -22,15 +17,12 @@
           }
         }
         h2{
-            font-size:25px;
+            font-size: 25px;
             letter-spacing: 1px;
             font-weight: 700;
         }
     }
     nav{
-        position: absolute;
-        top: 0;
-        left: 0;
         width: 100%;
         .nav-container{
             display: block;
