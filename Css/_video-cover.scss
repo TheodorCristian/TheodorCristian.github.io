@@ -2,9 +2,14 @@
   .homepage {
     background: url(/Assets/Background-image-main-page.jpg) no-repeat center center;
     background-size: cover;
+    height: 100vh;
+    position: relative;
     .info{
         text-align: center;
-        padding: 100px 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
         color: #0d0d0d;
         h1{
             font-size: 40px;
