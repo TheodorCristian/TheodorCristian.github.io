@@ -1,0 +1,36 @@
+.sectionTwo{
+    width: 100%;
+    background: #151515;
+    overflow: hidden;
+    .sectionTwo-container{
+        width: 90%;
+        margin: 0 auto;
+        padding: 100px 0;
+        h3{
+            text-align: center;
+            font-size: 25px;
+            font-weight: 700;
+            margin: 20px 0;
+            padding: 0;
+            color: #f0f0f0;
+        }
+        .technologies{
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .technology{
+                width: 10%;
+                p{
+                    color: #ddd;
+                    font-weight: 600;
+                    width: 100%;
+                    text-align: center;
+                    padding: 10px 0;
+                    border-bottom: 2px solid #e1a87a;
+
+                }
+            }
+        }
+    }
+}

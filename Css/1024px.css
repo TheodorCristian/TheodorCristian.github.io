@@ -1,0 +1,24 @@
+@media screen and (max-width: 1024px) {
+  .main-container .homepage .info {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+  }
+  .main-container .sectionOne .sectionOne-container {
+    padding: 50px 0;
+  }
+  .main-container .sectionOne .sectionOne-container .image-holder {
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+  }
+  .main-container .sectionOne .sectionOne-container .aboutMe {
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=1024px.css.map */

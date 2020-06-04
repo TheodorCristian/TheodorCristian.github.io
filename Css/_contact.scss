@@ -1,0 +1,81 @@
+.contact-section{
+    width: 100%;
+    background-image: url('/Assets/Background-image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    .homepage{
+        width: 100%;
+        height: 100%;
+        .contact-form{
+            width: 70%;
+            margin: 0 auto;
+            padding: 130px 0;
+            white-space: nowrap;
+            .contact-title{
+                display: inline-block;
+                vertical-align: middle;
+                width: 50%;
+                white-space: normal;
+                h1{
+                    margin: 20px 0;
+                }
+            }
+            .form-container{
+                display: inline-block;
+                width: 50%;
+                white-space: normal;
+                vertical-align:middle; 
+                background: rgba(0,0,0,0.5);
+                .input-style{
+                    width: 90%;
+                    margin: 20px auto;
+                    p{  
+                        color: #f0f0f0;
+                        margin: 10px 0;
+                    }
+                    input{
+                        background: #f0f0f09d;
+                        outline: none;
+                        border: none;  
+                        width: 100%;
+                        resize: vertical;
+                        padding: 10px 0 10px 15px;
+                        box-sizing: border-box;
+
+                    }
+                    textarea{
+                        background: #f0f0f09d;
+                        outline: none;
+                        border: none;
+                        width: 100%;
+                        resize: vertical; 
+                        padding: 10px 0 10px 15px;
+                        box-sizing: border-box;
+                        min-height: 150px;
+                    }
+                    #submit-button{
+                        font-size: 18px;
+                        text-transform: uppercase;
+                        color: #151515;
+                        font-weight: 700;
+                        letter-spacing: 2px;
+                        transition: .5s linear;
+                    }
+                    #submit-button:hover{
+                        transition: .5s linear;
+                        background: #151515;
+                        color: #f0f0f0;
+                    }
+                }
+                .radio-group{
+                    width: 90%;
+                    margin: 20px auto;
+                    p{
+                        color: #f0f0f0;
+                        margin: 10px 0;
+                    }
+                }
+            }
+        }
+    }
+}

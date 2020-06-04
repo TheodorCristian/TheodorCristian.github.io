@@ -1,0 +1,45 @@
+@media screen and (max-width: 1366px) {
+  .main-container .homepage nav .nav-container .logo {
+    text-align: left;
+  }
+  .main-container .homepage nav .nav-container .logo img {
+    min-width: 150px;
+  }
+  .main-container .homepage nav .nav-container .burger-menu {
+    display: inline-block;
+    width: 80%;
+    vertical-align: middle;
+  }
+  .main-container .homepage nav .nav-container .burger-menu div {
+    width: 30px;
+    height: 5px;
+    margin-top: 3px;
+    background: rgba(0, 0, 0, 0.7);
+    -webkit-transition: .5s;
+    transition: .5s;
+    margin-left: 90%;
+  }
+  .main-container .homepage nav .nav-container .burger-menu-active .line2 {
+    opacity: 0;
+  }
+  .main-container .homepage nav .nav-container .burger-menu-active .line1 {
+    -webkit-transition: .5s;
+    transition: .5s;
+    -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+            transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  .main-container .homepage nav .nav-container .burger-menu-active .line3 {
+    -webkit-transition: .5s;
+    transition: .5s;
+    -webkit-transform: rotate(45deg) translate(-5px, -6px);
+            transform: rotate(45deg) translate(-5px, -6px);
+  }
+  .main-container .homepage nav .nav-container .menu {
+    display: none;
+    width: 100%;
+  }
+  .main-container .homepage nav .nav-container .menu ul li {
+    width: 25%;
+  }
+}
+/*# sourceMappingURL=1366px.css.map */

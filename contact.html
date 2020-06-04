@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Css/animsition.min.css">
+    <link rel="stylesheet" href="/Css/styles.css">
+    <title>Cristian-Theodor Contact</title>
+</head>
+<body>
+    <div class="animsition">
+        <div class="main-container">
+            <div class="contact-section">
+                <div class="homepage">
+                    <nav>
+                        <div class="nav-container">
+                            <div class="logo">
+                                <a href="index.html"><img src="/Assets/Logo.png" alt="Logo"></a>
+                            </div>
+                            <div class="menu">
+                                <ul>
+                                    <li><a href="index.html" class="animsition-link">Home</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="contact-form">
+                        <div class="contact-title">
+                            <h1>Leave me a message...</h1>
+                            <h3>I promise I will read and respond! </h3>
+                        </div>
+                        <div class="form-container">
+                            <form method="GET">
+                                <div class="input-style">
+                                    <p>Enter your name:</p>
+                                    <input type="text" id="name" name="name" required/>
+                                </div>
+                                <div class="input-style">
+                                    <p>Enter your e-mail:</p>
+                                    <input type="email" id="email" name="email" required/>
+                                </div>
+                                <div class="radio-group">
+                                    <p>Do you want me to send my resume?</p>
+                                    <input type="radio" id="resume-yes" name="resume-request" value="Yes" checked/>
+                                    <label for="resume-yes">Yes</label>
+                                    <input type="radio" id="resume-no" name="resume-request" value="No" />
+                                    <label for="resume-no">No</label>
+                                </div>
+                                <div class="input-style">
+                                    <label for="message"></label>
+                                    <textarea name="message" id="message" style="height: 100px;"></textarea>
+                                </div>
+                                <div class="input-style">
+                                    <input type="submit" value="Submit" id="submit-button">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="Js/animsition.min.js"></script>
+    <script src="/Js/app.js"></script>
+    <script src="/Js/pageAnimation.js"></script>
+</body>
+</html>

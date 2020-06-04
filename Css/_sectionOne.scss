@@ -1,0 +1,41 @@
+.sectionOne{
+    width: 100%;
+    display: block;
+    background: #f0f0f0;
+    .sectionOne-container{
+        width: 90%;
+        margin: 0 auto;
+        padding: 100px 0;
+        color: #0d0d0d;
+        white-space: nowrap;
+        .image-holder{
+            display: inline-block;
+            vertical-align: middle;
+            width: 50%;
+            text-align: center;
+            img{
+                width: 50%;
+            }
+        }
+        .aboutMe{
+            display: inline-block;
+            vertical-align: middle;
+            width: 40%;
+            white-space: normal;
+            section{
+                border-bottom: 1px solid rgb(175, 175, 175);
+                h3{
+                    margin: 10px 0;
+                    font-weight: 700;
+                    font-size: 23px; 
+                }
+                p{
+                    line-height: 1.5;
+                    font-weight: 700;
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+}
