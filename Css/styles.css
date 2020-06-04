@@ -220,7 +220,7 @@
 .contact-section .homepage .contact-form {
   width: 70%;
   margin: 0 auto;
-  padding: 200px 0;
+  padding: 100px 0;
   white-space: nowrap;
 }
 
@@ -301,6 +301,12 @@
 .contact-section .homepage .contact-form .form-container .radio-group p {
   color: #f0f0f0;
   margin: 10px 0;
+}
+
+.contact-section .backgroundTwo {
+  background: url("/Assets/Background-image-contact-page.jpg") no-repeat center center;
+  background-size: cover;
+  z-index: 10;
 }
 
 footer {

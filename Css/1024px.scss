@@ -15,6 +15,20 @@
                 }
             }
         }
+        .sectionTwo{
+            .sectionTwo-container{
+                .technologies{
+                    display: block;
+                    margin-bottom: 50px;
+                    .technology{
+                        width: 50%;
+                        margin: 0 auto;
+                        text-align: center;
+                    }
+    
+                }
+            }
+        }
         .contact-section{
             .homepage{
                 .contact-form{

@@ -9,7 +9,7 @@
         .contact-form{
             width: 70%;
             margin: 0 auto;
-            padding: 200px 0;
+            padding: 100px 0;
             white-space: nowrap;
             .contact-title{
                 display: inline-block;
@@ -77,5 +77,10 @@
                 }
             }
         }
+    }
+    .backgroundTwo{
+        background: url('/Assets/Background-image-contact-page.jpg') no-repeat center center;
+        background-size: cover;
+        z-index: 10;
     }
 }
