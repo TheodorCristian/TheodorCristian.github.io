@@ -20,6 +20,7 @@
   font-weight: 1000;
   text-transform: uppercase;
   font-family: sans-serif;
+  width: 100%;
 }
 
 .main-container .homepage .info h1 .animate__animated.animate__zoomIn {

@@ -1,1 +1,17 @@
-/* No CSS *//*# sourceMappingURL=767px.css.map */
+@media screen and (max-width: 767px) {
+  .main-container .homepage nav .nav-container .burger-menu div {
+    margin-left: 70%;
+  }
+  .main-container .homepage nav .nav-container .menu {
+    display: block;
+  }
+  .main-container .homepage nav .nav-container .menu ul {
+    text-align: center;
+  }
+  .main-container .homepage nav .nav-container .menu ul li {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=767px.css.map */
