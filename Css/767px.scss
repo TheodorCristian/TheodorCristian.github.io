@@ -2,6 +2,15 @@
     .main-container{
         .sectionOne{
             .sectionOne-container{
+                .aboutMe{
+                    .swiper-container{
+                        .swiper-slide{
+                            p{
+                                line-height: 1.2;
+                            }
+                        }
+                    }
+                }
             }
         }
         .homepage {

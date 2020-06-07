@@ -37,11 +37,11 @@ $(document).ready(function(){
         stretch: 0,
         depth: 200,
         modifier: 1,
-        slideShadows : true
+        slideShadows : true,
         },
         autoplay: {
             delay: 5000,
-            disableOnInteraction: true,
+            disableOnInteraction: false,
         },
     })
 })
