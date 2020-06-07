@@ -42,6 +42,7 @@
     width: 25%;
   }
   .main-container .sectionOne .sectionOne-container {
+    padding: 20px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -57,7 +58,7 @@
             flex-direction: column;
   }
   .main-container .sectionOne .sectionOne-container .presentation-holder {
-    width: 60%;
+    width: 40%;
   }
   .main-container .sectionOne .sectionOne-container .aboutMe .swiper-container {
     width: 90%;
