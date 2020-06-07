@@ -47,5 +47,22 @@
                 }
             }
         }
+        .sectionOne{
+            .sectionOne-container{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                .presentation-holder{
+                    width: 60%;
+                }
+                .aboutMe{
+                    .swiper-container{
+                        width: 90%;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
     }
 }

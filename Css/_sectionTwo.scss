@@ -1,11 +1,12 @@
 .sectionTwo{
     width: 100%;
+    height: 100vh;
     background: #151515;
     overflow: hidden;
     .sectionTwo-container{
         width: 90%;
-        margin: 0 auto;
-        padding: 100px 0;
+        margin: auto;
+        height: 100%;
         h3{
             text-align: center;
             font-size: 25px;

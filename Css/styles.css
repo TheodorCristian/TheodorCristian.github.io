@@ -104,62 +104,71 @@
 
 .sectionOne {
   width: 100%;
+  height: 100vh;
   display: block;
   background: #f0f0f0;
 }
 
 .sectionOne .sectionOne-container {
-  width: 90%;
-  margin: 0 auto;
-  padding: 100px 0;
+  width: 100%;
+  height: 100%;
   color: #0d0d0d;
   white-space: nowrap;
+  overflow: hidden;
 }
 
-.sectionOne .sectionOne-container .image-holder {
+.sectionOne .sectionOne-container .presentation-holder {
   display: inline-block;
   vertical-align: middle;
-  width: 50%;
+  width: 40%;
   text-align: center;
+  overflow: hidden;
 }
 
-.sectionOne .sectionOne-container .image-holder img {
-  width: 50%;
+.sectionOne .sectionOne-container .presentation-holder .presentation-slider {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sectionOne .sectionOne-container .presentation-holder .presentation-slider img {
+  width: 100%;
 }
 
 .sectionOne .sectionOne-container .aboutMe {
   display: inline-block;
   vertical-align: middle;
-  width: 40%;
+  width: 90%;
   white-space: normal;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.sectionOne .sectionOne-container .aboutMe section {
-  border-bottom: 1px solid #afafaf;
+.sectionOne .sectionOne-container .aboutMe .swiper-container {
+  width: 60%;
+  margin: auto;
 }
 
-.sectionOne .sectionOne-container .aboutMe section h3 {
-  margin: 10px 0;
-  font-weight: 700;
-  font-size: 23px;
+.sectionOne .sectionOne-container .aboutMe .swiper-container .swiper-slide {
+  padding: 30px;
 }
 
-.sectionOne .sectionOne-container .aboutMe section p {
+.sectionOne .sectionOne-container .aboutMe .swiper-container .swiper-slide p {
   line-height: 1.5;
-  font-weight: 700;
-  width: 100%;
 }
 
 .sectionTwo {
   width: 100%;
+  height: 100vh;
   background: #151515;
   overflow: hidden;
 }
 
 .sectionTwo .sectionTwo-container {
   width: 90%;
-  margin: 0 auto;
-  padding: 100px 0;
+  margin: auto;
+  height: 100%;
 }
 
 .sectionTwo .sectionTwo-container h3 {
