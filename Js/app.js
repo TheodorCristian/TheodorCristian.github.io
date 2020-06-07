@@ -1,5 +1,4 @@
 $( document ).ready(function() {
-    titleAnimation();
     descriptionAnimation();
     technologiesAnimation();
     burgerAnimation();
@@ -15,10 +14,13 @@ $( document ).ready(function() {
 
 
 //Title animation
+$(document).ready(function(){
   function titleAnimation() {
       $('#title-animated').addClass('animate__animated animate__zoomIn animate__delay-1s');
       $('#subtitle-animated').addClass('animate__animated animate__zoomIn animate__delay-2s');
   }
+  titleAnimation();
+})
  
 // Description animation  
   function descriptionAnimation () {
