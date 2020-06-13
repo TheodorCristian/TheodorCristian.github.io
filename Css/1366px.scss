@@ -49,18 +49,13 @@
         }
         .sectionOne{
             .sectionOne-container{
-                padding: 20px 0;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
-                .presentation-holder{
+                 .presentation-holder{
                     width: 40%;
                 }
                 .aboutMe{
                     .swiper-container{
-                        width: 90%;
-                        margin: 0 auto;
+                        margin: 0;
+                        padding: 0 0 0 40px;
                     }
                 }
             }

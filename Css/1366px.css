@@ -41,28 +41,12 @@
   .main-container .homepage nav .nav-container .menu ul li {
     width: 25%;
   }
-  .main-container .sectionOne .sectionOne-container {
-    padding: 20px 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
   .main-container .sectionOne .sectionOne-container .presentation-holder {
     width: 40%;
   }
   .main-container .sectionOne .sectionOne-container .aboutMe .swiper-container {
-    width: 90%;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0 0 0 40px;
   }
 }
 /*# sourceMappingURL=1366px.css.map */
