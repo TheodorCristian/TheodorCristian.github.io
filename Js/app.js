@@ -16,8 +16,8 @@ $( document ).ready(function() {
 //Title animation
 $(document).ready(function(){
   function titleAnimation() {
-      $('#title-animated').addClass('animate__animated animate__zoomIn animate__delay-1s');
-      $('#subtitle-animated').addClass('animate__animated animate__zoomIn animate__delay-2s');
+      $('#title-animated').addClass('animate__animated animate__zoomIn animate__delay-2s');
+      $('#subtitle-animated').addClass('animate__animated animate__zoomIn animate__delay-3s');
   }
   titleAnimation();
 })
