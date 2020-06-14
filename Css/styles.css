@@ -121,14 +121,10 @@
   vertical-align: middle;
   width: 40%;
   text-align: center;
-  overflow: hidden;
 }
 
 .sectionOne .sectionOne-container .presentation-holder .presentation-slider {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .sectionOne .sectionOne-container .presentation-holder .presentation-slider img {

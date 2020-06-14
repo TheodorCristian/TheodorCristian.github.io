@@ -1,7 +1,4 @@
 @media screen and (max-width: 767px) {
-  .main-container .sectionOne {
-    height: 100vh;
-  }
   .main-container .sectionOne .sectionOne-container {
     padding: 0;
   }
