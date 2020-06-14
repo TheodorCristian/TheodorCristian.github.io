@@ -138,22 +138,32 @@
 .sectionOne .sectionOne-container .aboutMe {
   display: inline-block;
   vertical-align: middle;
-  width: 90%;
+  width: 60%;
   white-space: normal;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-.sectionOne .sectionOne-container .aboutMe .swiper-container {
-  width: 60%;
+.sectionOne .sectionOne-container .aboutMe .carouselleBox {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: none;
+  position: absolute;
+  width: 100%;
+  padding: 0 100px;
 }
 
-.sectionOne .sectionOne-container .aboutMe .swiper-container .swiper-slide {
-  padding: 30px;
+.sectionOne .sectionOne-container .aboutMe .carouselleBox.activeCrs {
+  display: block !important;
 }
 
-.sectionOne .sectionOne-container .aboutMe .swiper-container .swiper-slide p {
-  line-height: 1.5;
+.sectionOne .sectionOne-container .aboutMe .carouselleCustom {
+  position: relative;
+  margin: 50px auto 0 auto;
+}
+
+.sectionOne .sectionOne-container .aboutMe .carouselleOne .detailsBox {
+  padding-left: 25px;
 }
 
 .sectionTwo {

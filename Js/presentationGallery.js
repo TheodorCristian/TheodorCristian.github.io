@@ -1,4 +1,4 @@
-$(document).ready(function(){
+// $(document).ready(function(){
 
     // //Setting variables
 
@@ -27,21 +27,31 @@ $(document).ready(function(){
     //     });
     // }, 3000)
 
-    let mySwiperAnimation = new Swiper('.swiper-container', {
-        effect: 'coverflow',
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: 'auto',
-        coverflowEffect: {
-        rotate: 70,
-        stretch: 0,
-        depth: 200,
-        modifier: 1,
-        slideShadows : true,
-        },
-        autoplay: {
-            delay: 5000,
-            disableOnInteraction: false,
-        },
-    })
-})
+
+
+$(document).ready(function() {
+    var $ = jQuery;
+			var crsLength = $('.carouselleCustom').children().length;
+			var i = 0;
+			var crsInteval;
+			function startInterval() {
+				crsInteval = setInterval(function () {
+					$('.carouselleBox').eq(i - 1).fadeOut(500).removeClass('activeCrs');
+					$('.carouselleBox').eq(i).fadeIn(500);
+					i++;
+					if (i === crsLength) {
+						i = 0;
+					}
+				}, 6000);
+			}
+			startInterval();
+			$('.carouselleBox').on('mouseout', function () {
+				startInterval();
+				console.log('focusing on carouselle');
+			});
+			$('.carouselleBox').on('mouseover', function () {
+				clearInterval(crsInteval);
+				console.log('out off carouselle');
+			});
+
+});

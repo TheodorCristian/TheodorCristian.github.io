@@ -49,14 +49,18 @@
         }
         .sectionOne{
             .sectionOne-container{
-                 .presentation-holder{
+                padding: 20px 0;
+                .presentation-holder{
+                    box-sizing: border-box;
+                    display: block;
                     width: 40%;
+                    margin: 0 auto;
+                    padding: 50px 0 0 0;
                 }
                 .aboutMe{
-                    .swiper-container{
-                        margin: 0;
-                        padding: 0 0 0 40px;
-                    }
+                    display: block;
+                    width: 90%;
+                    margin: 0 auto;
                 }
             }
         }

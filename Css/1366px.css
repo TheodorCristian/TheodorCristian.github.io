@@ -41,12 +41,21 @@
   .main-container .homepage nav .nav-container .menu ul li {
     width: 25%;
   }
-  .main-container .sectionOne .sectionOne-container .presentation-holder {
-    width: 40%;
+  .main-container .sectionOne .sectionOne-container {
+    padding: 20px 0;
   }
-  .main-container .sectionOne .sectionOne-container .aboutMe .swiper-container {
-    margin: 0;
-    padding: 0 0 0 40px;
+  .main-container .sectionOne .sectionOne-container .presentation-holder {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+  }
+  .main-container .sectionOne .sectionOne-container .aboutMe {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=1366px.css.map */

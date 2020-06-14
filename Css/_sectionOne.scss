@@ -26,17 +26,25 @@
         .aboutMe{
             display: inline-block;
             vertical-align: middle;
-            width: 90%;
+            width: 60%;
             white-space: normal;
             box-sizing: border-box;
-            .swiper-container{
-                width: 60%;
-                    .swiper-slide{
-                        padding: 30px;
-                        p{
-                            line-height: 1.5; 
-                        }
-                }
+            .carouselleBox{
+                box-sizing: border-box;
+                display: none;
+                position: absolute;
+                width: 100%;
+                padding: 0 100px;
+            }
+            .carouselleBox.activeCrs{
+                display: block!important;
+            }
+            .carouselleCustom {
+                position: relative;
+                margin: 50px auto 0 auto;
+            }
+            .carouselleOne  .detailsBox {
+                padding-left: 25px;
             }
         }
     }

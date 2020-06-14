@@ -1,6 +1,23 @@
 @media screen and (max-width: 767px) {
-  .main-container .sectionOne .sectionOne-container .aboutMe .swiper-container .swiper-slide p {
-    line-height: 1.2;
+  .main-container .sectionOne {
+    height: 100vh;
+  }
+  .main-container .sectionOne .sectionOne-container {
+    padding: 0;
+  }
+  .main-container .sectionOne .sectionOne-container .presentation-holder {
+    padding: 0;
+    padding-top: 10px;
+    width: 70%;
+  }
+  .main-container .sectionOne .sectionOne-container .aboutMe .carouselleBox {
+    padding: 0 30px;
+  }
+  .main-container .sectionOne .sectionOne-container .aboutMe .carouselleBox h3 {
+    margin-top: 0;
+  }
+  .main-container .sectionOne .sectionOne-container .aboutMe .carouselleBox p {
+    line-height: 1;
   }
   .main-container .homepage nav .nav-container .burger-menu div {
     margin-left: 70%;
@@ -18,6 +35,17 @@
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+  }
+  .main-container .sectionTwo .sectionTwo-container h3 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .main-container .sectionTwo .sectionTwo-container .technologies {
+    margin-bottom: 15px;
+  }
+  .main-container .sectionTwo .sectionTwo-container .technologies .technology p {
+    margin: 0;
+    padding-top: 10px;
   }
 }
 /*# sourceMappingURL=767px.css.map */

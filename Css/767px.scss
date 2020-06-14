@@ -1,18 +1,27 @@
 @media screen and (max-width: 767px) {
     .main-container{
         .sectionOne{
+            height: 100vh;
             .sectionOne-container{
+                padding: 0;
+                .presentation-holder{
+                    padding: 0;
+                    padding-top: 10px;
+                    width: 70%;
+                }
                 .aboutMe{
-                    .swiper-container{
-                        .swiper-slide{
-                            p{
-                                line-height: 1.2;
-                            }
+                    .carouselleBox{
+                        padding: 0 30px;
+                        h3{
+                            margin-top: 0;
+                        }
+                        p{
+                            line-height: 1;
+                        }
                         }
                     }
                 }
             }
-        }
         .homepage {
             nav .nav-container{ 
                 .burger-menu {
@@ -37,6 +46,24 @@
                 transform: translate(-50%,-50%);
             }
 
+        }
+        .sectionTwo{
+            .sectionTwo-container{
+                h3{
+                    font-size: 20px;
+                    margin-top: 20px;
+                }
+                .technologies {
+                    margin-bottom: 15px;
+                    .technology {
+                        p{
+                            margin: 0;
+                            padding-top: 10px;
+                        }
+                    }
+                }
+            }
         } 
+        
     }
 }

@@ -2,20 +2,8 @@
     .main-container {
         .sectionOne{
             .sectionOne-container{
-                padding: 20px 0;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
                 .presentation-holder{
-                    width: 50%;
-                }
-                .aboutMe{
-                    .swiper-container{
-                        margin-left: auto;
-                        margin-right: auto;
-                        padding: 0;
-                    }
+                    width: 60%;
                 }
             }
         }
