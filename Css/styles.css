@@ -133,6 +133,7 @@
 
 .sectionOne .sectionOne-container .presentation-holder .presentation-slider img {
   width: 100%;
+  height: auto;
 }
 
 .sectionOne .sectionOne-container .aboutMe {
