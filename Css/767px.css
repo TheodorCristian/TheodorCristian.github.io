@@ -10,6 +10,13 @@
     padding-top: 10px;
     width: 70%;
   }
+  .main-container .sectionOne .sectionOne-container .presentation-holder .presentation-slider {
+    width: 100%;
+  }
+  .main-container .sectionOne .sectionOne-container .presentation-holder .presentation-slider img {
+    width: 100%;
+    height: auto;
+  }
   .main-container .sectionOne .sectionOne-container .aboutMe .carouselleBox {
     padding: 0 30px;
   }
